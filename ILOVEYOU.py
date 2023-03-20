@@ -1,33 +1,48 @@
-from random import *
-from os import *
 from time import *
-a = []
-
-print('\n' * 15, ' ' * 109, 'Приветствую Вас!\n',' ' * 106, 'Что пожелаете делать?')
-d = str(input(' ' * 119))
-if d == 'Хочу расслабиться':
+from os import *
+print('\n' * 15, ' ' * 115, 'Ключ от сердца', '\n', ' ' * 113, end = '')
+a = str(input('Введите пароль:'))
+if a != 'I love you':
     system('cls||clear')
-    system('color a')
-    for i in range(63):
-        for h in range(237):
-            c = randint(0,1)
-            a.append(c)
-        print(*a, sep = '')
-        sleep(0.01)
-        a = []
-    for l in range(63):
-        print(' ')
-        sleep(0.01)
-system('color f')
+    print('\n' * 15, ' ' * 115, 'Ключ от сердца')
+    print(' ' * 110, 'Введите пароль: I love you')
+sleep(1)
 system('cls||clear')
 for p in range(3):
     for o in range(3):
         print('\n' * 15, ' ' * 117, 'Загрузка', '.' * (o + 1))
         sleep(0.5)
         system('cls||clear')
-print('\n' * 15, ' ' * 107, 'Включаю расслабляющую музыку', sep = '')
-sleep(0.5)
-startfile('music.mp3')
-sleep(3)
+def fev(x, y, z):
+    system('cls||clear')
+    print(x, y, z)
+    sleep(1.5)
+
+sleep(2)
+fev('\n' * 15, ' ' * 109, 'С 14 февраля поздравить')
+fev('\n' * 15, ' ' * 107, 'Хочу тебя я строчками из кода')
+fev('\n' * 15, ' ' * 105, 'Чтоб быть с тобой, я все могу оставить!')
+fev('\n' * 15, ' ' * 106, 'Прими же мои чувства в час невзгоды!')
 system('cls||clear')
-sleep(10)
+system('color c')
+sleep(0.5)
+print('\n' * 13, ' ' * 108, '  000000   000000')
+sleep(0.5)
+print(' ' * 109, ' 00000000 00000000')
+sleep(0.5)
+print(' ' * 109, ' 00000000000000000')
+sleep(0.5)
+print(' ' * 109, '  000000000000000')
+sleep(0.5)
+print(' ' * 109, '    000000000000')
+sleep(0.5)
+print(' ' * 109, '       00000')
+sleep(0.5)
+print(' ' * 110,  '        0')
+sleep(2)
+system('cls||clear')
+system('color f')
+print('\n' * 15, ' ' * 109, 'С Днём Святого Валентина!')
+sleep(1.5)
+startfile('music1.mp3')
+sleep(3)
